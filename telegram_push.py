@@ -12,8 +12,8 @@ def return_proxies():
 
     return proxy
 
-#-1915235503_326
-def send_photo_telegram(photo, caption, chat_id="-1001915235503_326"):
+
+def send_photo_telegram(photo, caption, chat_id=""):
     #url = f"https://api.telegram.org/bot{os.getenv('TELEGRAM_BOT_TOKEN')}/sendPhoto"
     token = ""
     url = f"https://api.telegram.org/bot{token}/sendPhoto"
